@@ -130,3 +130,53 @@ footer a img {
     border: none;
     text-decoration: none;
 }
+
+/* Additions for the Contact Page */
+.employees {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.employees figure {
+    width: 30%;
+    text-align: center;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+form label {
+    grid-column: span 2;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+form fieldset {
+    grid-column: span 2;
+    padding: 1rem;
+    border: 1px solid var(--accent-color);
+}
+
+form button {
+    grid-column: span 2;
+    padding: 0.5rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: var(--secondary-color);
+}
