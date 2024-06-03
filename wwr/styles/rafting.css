@@ -180,3 +180,62 @@ form button {
 form button:hover {
     background-color: var(--secondary-color);
 }
+
+/* Additional CSS for trips.html */
+
+.cta {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.cta p {
+    font-size: 1.2rem;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.trip-details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.trip-details article {
+    background-color: var(--background-color);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.trip-details img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.trip-table {
+    padding: 2rem 0;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trip-table th,
+.trip-table td {
+    border: 1px solid var(--accent-color);
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.trip-table th {
+    background-color: var(--primary-color);
+    color: white;
+}
